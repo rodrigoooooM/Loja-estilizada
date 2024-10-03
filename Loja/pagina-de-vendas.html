@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendas</title>
+    <link rel="stylesheet" type="text/css" href="pagina-de-vendas.css">
+</head>
+<body>
+    <header>
+        <h1>Página de vendas</h1>
+        <nav>
+            <a href="index.html">Página Inicial</a>
+            <a href="add-produto.html">Adicionar Produto</a>
+            <a href="funcionarios.html">Funcionários</a>
+            <a href="ctrl-estoque.html">Catálogo</a>
+            <a href="historico-de-compras.html">Hostórico de compras</a>
+            <a href="pagina-de-vendas.html">Página de vendas</a>
+        </nav>
+    </header>
+
+    <main>
+    <h2>Carrinho</h2>
+    <form action="">
+        <section>
+            <label for="link-foto">Nome do produto: </label>
+            <input type="url" id="link-foto" name="link-foto">
+        </section>
+       
+        <section>
+            <label for="quantidade">Quantidade: </label>
+            <input type="number" id="preco-produto" name="quantidade">
+        </section>
+       
+        <br><label>Opções de pagamento:</label><br>
+        <section>
+            <input type="radio" name="opcoes-pagamento" id="cartao" value="cartao">
+            <label for="cartao">Cartão</label><br>
+        </section>
+        <section>
+            <input type="radio" name="opcoes-pagamento" id="hora-entrega" value="dinheiro">
+            <label for="DINHEIRO">Dinheiro</label><br>
+        </section>
+        <section>
+            <input type="radio" name="opcoes-pagamento" id="pix" value="pix">
+            <label for="PIX">Pix</label><br>
+        </section>
+ 
+        <input type="submit" value="Enviar">
+    </main>
+ 
